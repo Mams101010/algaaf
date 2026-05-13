@@ -256,7 +256,7 @@ export default function AlGaafHomepage() {
       {/* Mobile nav */}
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
         <div style={{ marginBottom: 8 }}>
-          <img src="/Al_Gaaf_Logo.png" alt="AL GAAF Holding" style={{ height: 48, width: "auto", display: "block" }} />
+          <img src="https://raw.githubusercontent.com/Mams101010/algaaf/main/Al_Gaaf_Logo.png" alt="AL GAAF Holding" style={{ height: 48, width: "auto", display: "block" }} />
         </div>
         {["about", "focus", "ventures", "contact"].map((s) => (
           <span
@@ -290,7 +290,7 @@ export default function AlGaafHomepage() {
             style={{ cursor: "pointer" }}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            <img src="/Al_Gaaf_Logo.png" alt="AL GAAF Holding" style={{ height: 52, width: "auto", display: "block" }} />
+            <img src="https://raw.githubusercontent.com/Mams101010/algaaf/main/Al_Gaaf_Logo.png" alt="AL GAAF Holding" style={{ height: 52, width: "auto", display: "block" }} />
           </div>
 
           {/* Desktop nav */}
