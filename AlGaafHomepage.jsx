@@ -255,11 +255,8 @@ export default function AlGaafHomepage() {
 
       {/* Mobile nav */}
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
-        <div
-          style={{ letterSpacing: "0.35em", fontSize: 18, fontWeight: 300, marginBottom: 8 }}
-          className="display"
-        >
-          AL GAAF
+        <div style={{ marginBottom: 8 }}>
+          <img src="/Al_Gaaf_Logo.png" alt="AL GAAF Holding" style={{ height: 48, width: "auto", display: "block" }} />
         </div>
         {["about", "focus", "ventures", "contact"].map((s) => (
           <span
@@ -290,11 +287,10 @@ export default function AlGaafHomepage() {
           }}
         >
           <div
-            className="display"
-            style={{ letterSpacing: "0.45em", fontSize: 17, fontWeight: 300, cursor: "pointer" }}
+            style={{ cursor: "pointer" }}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            AL GAAF
+            <img src="/Al_Gaaf_Logo.png" alt="AL GAAF Holding" style={{ height: 52, width: "auto", display: "block" }} />
           </div>
 
           {/* Desktop nav */}
